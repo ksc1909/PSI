@@ -1,0 +1,2 @@
+Perceptron z funkcj¹ uczenia siê na przyk³adzie bramek np. AND lub OR. Wykorzystana funkcja aktywacji to funkcja: sigmoidalna. Wagi modyfikowane s¹ iteracyjnie przy wykorzystaniu 
+regu³y delta, która liczy b³¹d miêdzy wynikiem który chcemy uzyskaæ, a tym co uzyskaliœmy w danej iteracji. 

@@ -1,15 +1,19 @@
-
 input = [0 0; 0 1; 1 0; 1 1];
+
 numIn = 4;
-desired_out = [0;1;1;1];
+
+desired_out = [0;1;1;0];
+
 bias = -1;
+
 coeff = 0.7;
+
 rand('state',sum(100*clock));
 weights = -1*2.*rand(3,1);
 
 
 
-iterations = 10;
+iterations = 1000000000;
 for i = 1:iterations
      out = zeros(4,1);
      for j = 1:numIn
