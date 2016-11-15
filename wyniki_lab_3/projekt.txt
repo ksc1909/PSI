@@ -1,1 +1,4 @@
-Jako projekt wybrano rozpoznawanie liter/cyfr przy pomocy sieci neuronowych z wykorzystaniem wstecznej propagacji b³êdów
+Jako projekt wybrano rozpoznawanie liter/cyfr przy pomocy sieci neuronowych z wykorzystaniem wstecznej propagacji b³êdów. 
+Najprawdopodobniej projekt bêdzie stworzony z kilkuwarstwowej sieci neuronowej, która bêdzie rozpoznawa³a obrazki 28x28 px.
+Obrazki na wejsciu bêd¹ czarno-bia³e, co spowoduje ze neurony dostan¹ zero jeœli wartosc bedzie bia³a, i wartosc ró¿n¹ od zera
+gdy kolor bêdzie nie bia³y. Nastêpnie dostarczê programowi dane do nauki, po czym program bêdzie w stanie rozpoznawaæ obrazki.
