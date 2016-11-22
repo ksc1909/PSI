@@ -1,0 +1,8 @@
+C:\Users\swiad\Desktop\neural-network-character-recognition-master\bin\Debug\Neural.exe
+C:\Users\swiad\Desktop\neural-network-character-recognition-master\bin\Debug\Neural.pdb
+C:\Users\swiad\Desktop\neural-network-character-recognition-master\obj\x86\Debug\Neural.csprojResolveAssemblyReference.cache
+C:\Users\swiad\Desktop\neural-network-character-recognition-master\obj\x86\Debug\WindowsFormsApplication.Main.resources
+C:\Users\swiad\Desktop\neural-network-character-recognition-master\obj\x86\Debug\Neural.Properties.Resources.resources
+C:\Users\swiad\Desktop\neural-network-character-recognition-master\obj\x86\Debug\Neural.csproj.GenerateResource.Cache
+C:\Users\swiad\Desktop\neural-network-character-recognition-master\obj\x86\Debug\Neural.exe
+C:\Users\swiad\Desktop\neural-network-character-recognition-master\obj\x86\Debug\Neural.pdb

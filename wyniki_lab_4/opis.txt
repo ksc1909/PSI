@@ -1,0 +1,7 @@
+Przeprowadzi³em tutaj rozpoznawianie zadanych przez uzytkownica inputow . U¿ylem 4 neuronów w sieci jednowarstwowej. Na pocz¹tku trenujemy nasz¹
+sieæ do rozpoznawania znaków 0,1. Tworzê macierz wag: przekszta³cam input na bipolarny odpowiedni wzorzec, mno¿ê wzorzec bipolarny (wektor) przez
+jego odpowiednik transponowany. Zeruje wspó³czynniki po przek¹tnej. Nastêpnie maj¹c macierz, ka¿dy wiersz odpowiada wagom danych neuronów
+Porównuje wagi i input. tam grzoe input jest 1 zostawiam wagê i dodajê wszystko tam gdzie jest 1. po zsumowaniu przepuszczam przez funckjê 
+aktywacji tanh x = e^x - e^(-x) / e^x + e^(-x) . Jeœli wynik jest wiêkszy b¹dz równy 0 wtedy neuron sie aktywuje, nieaktywujê siê w odwrotnym przypadku. 
+
+ 

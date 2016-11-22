@@ -60,7 +60,7 @@ public class Hebb {
         System.out.print(" result=" + result);
 
         // adjust weight 1
-        delta = trainingFunction(this.rate, i1, result);
+        delta = trainingFunction(this.rate,  i1, result);
         this.w1 += delta;
         System.out.print(",delta w1=" + delta);
 
