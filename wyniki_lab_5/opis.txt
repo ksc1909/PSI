@@ -1,0 +1,6 @@
+Wykorzysta³em tutaj sieci kohonena do zbudowania samoorganizujacej sie mapy w Matlabie. Program m¿e pracowac w dwuwymiarowym obszarze. Sieæ jest uczona
+bez nauczyciela w celu wytworzenia niskowymiarowej zdyskretyzowanej reprezentacji przestrzeni liniowej. Sieæ kohonena wyró¿nia siê tym od innych sieci
+¿e zachowuje odwzorowanie s¹siedztwa przestrzenie wejsciowej. Zastosowanie metody Kohonena daje znacznie lepsze rezultaty ni¿ WTA (Winner Takes All) 
+Po pierwsze uporz¹dkowanie sieci jest lepsze (tzn. organizacja neuronów lepiej odwzorowuje rozk³ad danych wejœciowych), a po drugie zbie¿noœæ algorytmu 
+(rozumiana jako liczba iteracji potrzebnych do osi¹gniêcia po¿¹danego stopnia organizacji sieci) jest wy¿sza. Cen¹ tego jest wielokrotnie d³u¿szy czas wykonywania
+ pojedynczej iteracji - trzeba zmodyfikowaæ wagi wielu neuronów z ca³ego s¹siedztwa, a nie tylko zwyciêzcy.
