@@ -1,0 +1,8 @@
+Jako problem w swoim przyk³adzie stara³em rozwi¹zaæ siê zagadnienie rozpoznawania cyfr 0-9 za pomoc¹ sztucznych sieci neuronowych. 
+Program mia³ za zadanie rozpoznaæ nasz¹ cyfrê. Cyfrê t¹ rysujemy za pomoc¹ myszki. Postara³em siê rozwi¹zaæ problem rozpoznawania 
+cyfr za pomoc¹ samoorganizuj¹cej siê sieci Kohonena. Jest to jednowarstwowa sieæ. Jeden neuron odpowiada jednemu znakowi, zatem mamy 10 neuronów.
+Na wejœcie sieæ dostaje wektor 0 i 1, poniewa¿ obrazek jest przekszta³cany po narysowaniu do 1 i 0 ( 1 to tam gdzie jest piksel zamalowany, a 0 
+tam gdzie jest bia³y). Wagi s¹ inicjalizowane na pocz¹tku losowo. W trakcie uczenia, gdy zostanie wyszukany najbardziej aktywny neuron, modyfikowane
+s¹ wagi. Najbardziej modyfikowana jest waga neuronu który jest najbardziej pobudzony. Najmniej jego s¹siadów - czyli neuronów mniej aktywnych. Ka¿dy neuron 
+ma 16*20 wejœæ (taki rozmiar obrazka który jest zmieniany na macierz 1 i 0). Podczas rozpoznawania, szukamy neuronu który bêdzie najabrdziej aktywny
+przy danym wektore wejœciowym 
